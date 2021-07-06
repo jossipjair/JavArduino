@@ -1,0 +1,10 @@
+create table temperatura
+(
+IdTemperatura int not null auto_increment primary key,
+CodigoSensor varchar(40) null,
+UbicacionSensor varchar(40) null,
+Fecha varchar(40) null,
+FechaHora varchar(40) null,
+Hora varchar(2) null,
+ValorTemperatura decimal(10,2) null
+);
